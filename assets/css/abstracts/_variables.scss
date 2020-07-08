@@ -1,0 +1,103 @@
+// COLOR SCHEME
+
+$white:#fff;
+$platinum:#e6e7e7;
+$light-gray:#d1d1d1;
+
+$fuzzy-wuzzy:#e56353;
+$ruddy-pink:#d76c69;
+$spanish-pink:#ecbcba;
+
+$eerie-black:#121619;
+$raisin-black:#222323;
+$nickel:#6c6e70;
+
+// FONTS
+
+@font-face{
+    font-family:"Roboto";
+    font-weight: normal;
+    src: url('../vendors/Roboto-Regular.ttf');
+}
+
+@font-face{
+    font-family: "Roboto";
+    font-weight: lighter;
+    src: url('../vendors/Roboto-Light.ttf');
+    
+}
+
+@font-face{
+    font-family: "Playfair Display";
+    font-weight: bolder;
+    font-style: italic;
+    src: url('../vendors/PlayfairDisplay-BlackItalic.ttf');
+}
+
+@font-face{
+    font-family: "Playfair Display";
+    font-weight: normal;
+    src: url('../vendors/PlayfairDisplay-Regular.ttf');
+}
+
+$Roboto: "Roboto";
+$Playfair-Display: "Playfair Display";
+
+// FONT SIZE
+
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
+
+//TITLES
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: $xx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-size: $x-large;
+        font-weight: bold;
+        font-style: italic;
+    }
+  }
+
+
+
+h2{
+    font-family: $Playfair-Display;
+    font-size: $x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h3{
+    font-family: $Playfair-Display;
+    font-size: $large;
+    font-weight: normal;
+}
+
+h4{
+    font-family: $Roboto;
+    font-size: $large;
+    font-weight: normal;
+}
+
+p{
+    font-family: $Roboto;
+    font-size: $medium;
+    font-weight: normal;
+}
+
+h5{
+    font-family: $Roboto;
+    font-size: $small;
+    font-weight: normal;
+}

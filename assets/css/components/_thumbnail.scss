@@ -1,0 +1,14 @@
+
+.icono{
+    width: 175px;
+    border-radius: 100px;
+    border: 1px solid $light-gray;
+}
+
+@media (max-width: 600px){
+    .icono{
+        width: 130px;
+        border-radius: 100px;
+        border: 1px solid $light-gray;
+    }
+}

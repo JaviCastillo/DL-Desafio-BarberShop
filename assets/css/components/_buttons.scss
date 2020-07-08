@@ -1,0 +1,50 @@
+
+.boton{
+    background: $nickel;
+    color:$white;
+    border-radius: 50px;
+    border: none;
+    padding: 1rem 1rem;
+    margin: 0 0.3vw;
+    font-family: $Roboto;
+    font-size: $medium;
+    transition: 0.3s;
+    box-sizing: border-box;
+
+    &:hover{
+        background: $platinum;
+    }
+
+    &:focus{
+        outline: none;
+        box-shadow: inset 0px 4px 0px 0px $platinum,
+                    inset 0px -4px 0px 0px $platinum,
+                    inset 4px 0px 0px 0px $platinum,
+                    inset -4px 0px 0px 0px $platinum;
+    }
+}
+
+.boton--small{
+    background: $nickel;
+    color:$white;
+    height: 21px;
+    width: 47px;
+    border-radius: 10.5px;
+    font-family: $Roboto;
+    transition: 0.3s;
+
+    &:hover{
+        background: $platinum;
+    }
+
+    &:focus{
+        outline-color: $platinum;
+        outline: medium;
+    }
+}
+
+
+
+
+
+

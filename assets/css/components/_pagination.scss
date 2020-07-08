@@ -1,0 +1,48 @@
+
+.pagenas {
+    display: inline-block;
+
+    & a {
+        color: $eerie-black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid $platinum;
+        font-family: $Roboto;
+        font-size: $medium;
+        border: 1px solid $light-gray;
+        background-color: $white;
+    }
+
+    & .left{
+        border-radius: 20px 0 0 20px;
+        color: #6c6e70;
+    }
+    
+    & .right{
+        border-radius: 0 20px 20px 0;
+    }
+
+    & a.active {
+        background-color: $nickel;
+        color: $white;
+        border: 1px solid $nickel;
+    }
+
+    & a:hover:not(.active) {
+        background-color: $platinum;
+    }
+}
+
+@media(max-width:600px){
+    .pagenas a.active{
+        background-color: $raisin-black;
+        color: $white;
+        border: 1px solid $raisin-black;
+    }
+}
+
+.pag--small a{
+    font-size: $small;
+}
